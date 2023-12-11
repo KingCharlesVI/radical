@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/radical-logo.png'; // Replace with your logo image
+import logo from '../images/radical-logo-2.png'; // Replace with your logo image
 import '../App.css';
 
 const Header = () => {
@@ -14,11 +14,11 @@ const Header = () => {
       </div>
       <ul className="header-links">
         <li className="header-link">
+          <Link to="/collections" className="header-link">
           <span>Collections</span>
+          </Link>
           <ul className="dropdown">
-            <li><Link to="/collections/spring">Spring Collection</Link></li>
-            <li><Link to="/collections/summer">Summer Collection</Link></li>
-            <li><Link to="/collections/fall">Fall Collection</Link></li>
+            <li><Link to="/collections/ss24" className="dropdown-link">SS24</Link></li>
             {/* Add more collection pages as needed */}
           </ul>
         </li>

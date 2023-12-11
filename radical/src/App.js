@@ -4,9 +4,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import CollectionsPage from './pages/CollectionsPage';
-import SpringCollection from './pages/SpringCollection';
-import SummerCollection from './pages/SummerCollection';
-import FallCollection from './pages/FallCollection';
+import SS24 from './pages/SS24';
 
 function App() {
   return (
@@ -16,9 +14,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/collections" element={<CollectionsPage />} />
-        <Route path="/collections/spring" element={<SpringCollection />} />
-        <Route path="/collections/summer" element={<SummerCollection />} />
-        <Route path="/collections/fall" element={<FallCollection />} />
+        <Route path="/collections/ss24" element={<SS24 />} />
       </Routes>
     </Router>
   );
