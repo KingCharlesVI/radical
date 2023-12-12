@@ -190,3 +190,14 @@ span {
   max-width: 100%;
   height: auto;
 }
+
+.explore-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

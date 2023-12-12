@@ -9,26 +9,30 @@ const SS24 = () => {
   const garments = [
     {
       id: 1,
-      name: 'Leopard print vest',
-      description: 'Description for Leopard print vest',
+      name: 'Radical Leopard print vest',
+      description: 'Description for Radical Leopard print vest',
+      price: 30,
       imageUrl: '/images/placeholder.png', // Replace with the actual image URL
     },
     {
       id: 2,
-      name: 'Radical Varsity Jacket',
-      description: 'Description for Radical Varsity Jacket',
+      name: 'Radical Varsity jacket',
+      description: 'Description for Radical Varsity jacket',
+      price: 60,
       imageUrl: '/images/placeholder.png', // Replace with the actual image URL
     },
     {
       id: 3,
-      name: 'Layers scarf',
-      description: 'Description for Layers scarf',
+      name: 'Radical Layers scarf',
+      description: 'Description for Radical Layers scarf',
+      price: 20,
       imageUrl: '/images/placeholder.png', // Replace with the actual image URL
     },
     {
       id: 4,
       name: 'Radical Hallmark jeans',
       description: 'Description for Radical Hallmark jeans',
+      price: 45,
       imageUrl: '/images/placeholder.png', // Replace with the actual image URL
     },
     // Add more garment objects as needed
@@ -49,6 +53,7 @@ const SS24 = () => {
                 key={garment.id}
                 name={garment.name}
                 description={garment.description}
+                price={garment.price}
                 imageUrl={garment.imageUrl}
               />
             ))}
